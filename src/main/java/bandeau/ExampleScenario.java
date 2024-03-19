@@ -9,9 +9,9 @@ public class ExampleScenario {
      */
     public static void main(String[] args) {
         String message;
-        if (args.length > 0) // J'ai au moins un paramètre
+        if (args.length > 0) 
         {
-            message = args[0]; // le premier paramètre
+            message = args[0]; 
         } else {
             message = "Démonstration du bandeau";
         }
